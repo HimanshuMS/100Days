@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(62, 90, 238);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-align: center
+}
+
+.useless {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+}
+
+table {
+  border-collapse: collapse;
+  align-self: center;
+  font-size: x-large;
+  width: 300px;
+  height: 130px;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+td, th {
+  border-bottom: 1px solid rgb(62, 90, 238);
+  padding: 0.5rem;
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+}
+
+input[type=text] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
 }
